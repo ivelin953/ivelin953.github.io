@@ -10,6 +10,11 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other elements */
 }
 
 header img {
